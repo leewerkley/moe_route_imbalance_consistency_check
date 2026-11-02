@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "leewerkley-kvcache_jd391"
+name = "leewerkley-moe_route_imbalance_consistency_check"
 version = "0.1.0"
 description = "在同一个输入里两两比对，检测KV Cache 与显存优化工程师·MoE 路由的负载不均相关的矛盾表述，把冲突双方原样并排呈现"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://leewerkley.github.io"
-Repository = "https://github.com/leewerkley/kvcache_jd391"
-Issues = "https://github.com/leewerkley/kvcache_jd391/issues"
+Repository = "https://github.com/leewerkley/moe_route_imbalance_consistency_check"
+Issues = "https://github.com/leewerkley/moe_route_imbalance_consistency_check/issues"
 
 [project.scripts]
-kvcache_jd391 = "kvcache_jd391:main"
+moe_route_imbalance_consistency_check = "moe_route_imbalance_consistency_check:main"
 
 [tool.setuptools]
-py-modules = ["kvcache_jd391"]
+py-modules = ["moe_route_imbalance_consistency_check"]
